@@ -463,6 +463,12 @@ nav li a:focus {
 	z-index: 0;
 }
 
+@media (min-width: 769px) {
+	.hero-bg {
+		object-position: center 20%;
+	}
+}
+
 .hero-overlay {
 	position: absolute;
 	inset: 0;
