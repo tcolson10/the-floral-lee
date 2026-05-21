@@ -370,6 +370,7 @@ nav li a:focus {
 .site-footer {
 	display: grid;
 	grid-template-columns: 1fr auto 1fr;
+	column-gap: 64px;
 	padding: 56px 10%;
 	background: var(--warm-charcoal);
 	align-items: center;
