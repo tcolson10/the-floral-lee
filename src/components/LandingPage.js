@@ -59,8 +59,8 @@ const LandingPage = () => {
 			{/* Stats Bar */}
 			<div className="stats-bar">
 				<div className="stat-item">
-					<span className="stat-number">Austin</span>
-					<span className="stat-label">Texas Florist</span>
+					<span className="stat-number">Austin, TX</span>
+					<span className="stat-label">Florist</span>
 				</div>
 				<div className="stat-item">
 					<span className="stat-number">100+</span>
