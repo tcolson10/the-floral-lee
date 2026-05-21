@@ -12,6 +12,7 @@ import About from "./components/About";
 import PortfolioFull from "./components/PortfolioFull";
 import TestimonialsFull from "./components/TestimonialsFull";
 import MeetYourFlorist from "./components/MeetYourFlorist";
+import BookingPopup from "./components/BookingPopup";
 
 function App() {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -77,6 +78,7 @@ function App() {
 
 	return (
 		<div className="app-container">
+			<BookingPopup />
 			<header className={navTransparent ? "nav-transparent" : "nav-scrolled"}>
 				<Link to="/" className="webTitle" onClick={() => setIsMenuOpen(false)}>
 					<span className="navMonogram">FL</span>
