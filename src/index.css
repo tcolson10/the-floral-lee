@@ -150,7 +150,7 @@ header.nav-scrolled {
 
 /* Nav logo */
 .nav-logo {
-	height: 52px;
+	height: 64px;
 	width: auto;
 	display: block;
 	margin-left: 24px;
@@ -167,7 +167,7 @@ header.nav-scrolled {
 
 @media (max-width: 768px) {
 	.nav-logo {
-		height: 40px;
+		height: 46px;
 	}
 }
 
@@ -368,9 +368,8 @@ nav li a:focus {
 
 /* ======== FOOTER ======== */
 .site-footer {
-	display: flex;
-	justify-content: center;
-	gap: 80px;
+	display: grid;
+	grid-template-columns: 1fr auto 1fr;
 	padding: 56px 10%;
 	background: var(--warm-charcoal);
 	align-items: center;
@@ -394,11 +393,18 @@ nav li a:focus {
 	opacity: 1;
 }
 
-.footer-email,
 .footer-instagram {
 	font-size: 14px;
 	display: flex;
 	align-items: center;
+	justify-self: end;
+}
+
+.footer-email {
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	justify-self: start;
 }
 
 .footer-email a,
@@ -430,6 +436,7 @@ nav li a:focus {
 
 @media (max-width: 768px) {
 	.site-footer {
+		display: flex;
 		flex-direction: column;
 		gap: 28px;
 		padding: 48px 24px;
@@ -438,6 +445,7 @@ nav li a:focus {
 	.footer-email,
 	.footer-instagram {
 		justify-content: center;
+		justify-self: unset;
 		font-size: 14px;
 	}
 }
