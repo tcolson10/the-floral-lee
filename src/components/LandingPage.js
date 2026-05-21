@@ -20,7 +20,7 @@ const LandingPage = () => {
 			<div className="hero" id="home">
 				<video
 					className="hero-bg"
-					src="/images/portfolio/video.mov"
+					src="/images/portfolio/video.mp4"
 					autoPlay
 					muted
 					loop
