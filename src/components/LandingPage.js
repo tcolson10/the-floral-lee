@@ -54,9 +54,6 @@ const LandingPage = () => {
 						</button>
 					</div>
 				</div>
-				<div className="hero-scroll-hint">
-					<div className="hero-scroll-line" />
-				</div>
 			</div>
 
 			{/* Stats Bar */}
