@@ -11,6 +11,7 @@ import LandingPage from "./components/LandingPage";
 import About from "./components/About";
 import PortfolioFull from "./components/PortfolioFull";
 import TestimonialsFull from "./components/TestimonialsFull";
+import MeetYourFlorist from "./components/MeetYourFlorist";
 
 function App() {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -105,6 +106,14 @@ function App() {
 						</li>
 						<li>
 							<Link
+								to="/meet-your-florist"
+								onClick={() => setIsMenuOpen(false)}
+							>
+								Meet Lee
+							</Link>
+						</li>
+						<li>
+							<Link
 								to="/testimonials"
 								onClick={() => handleNavigation("testimonials")}
 							>
@@ -128,6 +137,7 @@ function App() {
 					<Route path="/contact" element={<LandingPage />} />
 					<Route path="/full-portfolio" element={<PortfolioFull />} />
 					<Route path="/full-testimonials" element={<TestimonialsFull />} />
+					<Route path="/meet-your-florist" element={<MeetYourFlorist />} />
 				</Routes>
 			</main>
 			<footer className="site-footer">

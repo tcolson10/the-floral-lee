@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Portfolio from "./Portfolio";
 import Testimonials from "./Testimonials";
 import Contact from "./Contact";
@@ -25,7 +26,7 @@ const LandingPage = () => {
 						<em>
 							{"The Floral".split("").map((char, i) => (
 								<span key={i} className="hero-letter" style={{ animationDelay: `${400 + i * 80}ms` }}>
-									{char === " " ? "\u00A0" : char}
+									{char === " " ? " " : char}
 								</span>
 							))}
 						</em>
@@ -61,8 +62,8 @@ const LandingPage = () => {
 			{/* Stats Bar */}
 			<div className="stats-bar">
 				<div className="stat-item">
-					<span className="stat-number">Utah</span>
-					<span className="stat-label">Florist</span>
+					<span className="stat-number">Austin</span>
+					<span className="stat-label">Texas Florist</span>
 				</div>
 				<div className="stat-item">
 					<span className="stat-number">100+</span>
@@ -79,8 +80,8 @@ const LandingPage = () => {
 				<Portfolio />
 			</div>
 
-			{/* About */}
-			<div className="about-section reveal">
+			{/* Meet Your Florist Preview */}
+			<div className="about-section reveal" id="meet">
 				<div className="about-image">
 					<img
 						src="/images/portfolio/ryan_rex.jpeg"
@@ -89,21 +90,19 @@ const LandingPage = () => {
 					/>
 				</div>
 				<div className="about-text">
-					<span className="section-eyebrow">Our Story</span>
+					<span className="section-eyebrow">Meet Your Florist</span>
 					<h2 className="section-heading">
-						Florals that feel like <em>you</em>
+						The person behind <em>every bloom</em>
 					</h2>
 					<p>
-						Every arrangement we create starts with you, your story, your vision, your day.
+						Hi, I'm Lee! I'm the hands and heart behind The Floral Lee, and I've been obsessed with flowers for as long as I can remember.
 					</p>
 					<p>
-						The Floral Lee creates custom, thoughtfully designed
-						arrangements that bring your vision to life and exceed every
-						expectation.
+						Based in Austin, Texas, I create custom floral designs for weddings and events that feel personal, intentional, and completely you.
 					</p>
-					<button className="about-cta" onClick={() => scrollTo("contact")}>
-						Work With Us
-					</button>
+					<Link to="/meet-your-florist" className="about-cta">
+						Meet Lee
+					</Link>
 				</div>
 			</div>
 
