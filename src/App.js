@@ -98,7 +98,7 @@ function App() {
 		<div className="app-container">
 			<header className={navTransparent ? "nav-transparent" : "nav-scrolled"}>
 				<Link to="/" className="webTitle" onClick={() => setIsMenuOpen(false)}>
-					<span className="navMonogram">SF</span>
+					<span className="navMonogram">FL</span>
 				</Link>
 				<button
 					className={`hamburger ${isMenuOpen ? "active" : ""}`}
@@ -153,7 +153,7 @@ function App() {
 			<footer className="site-footer">
 				<div className="footer-instagram">
 					<a
-						href="https://www.instagram.com/shelby_floral/"
+						href="https://www.instagram.com/theflorallee/"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
@@ -167,7 +167,7 @@ function App() {
 				</div>
 				<div className="footer-email">
 					<a
-						href="mailto:shelbyfloralcompany@gmail.com"
+						href="mailto:theflorallee@gmail.com"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
@@ -175,7 +175,7 @@ function App() {
 							<rect x="2" y="4" width="20" height="16" rx="2"/>
 							<polyline points="2,4 12,13 22,4"/>
 						</svg>
-						<span>shelbyfloralcompany@gmail.com</span>
+						<span>theflorallee@gmail.com</span>
 					</a>
 				</div>
 			</footer>

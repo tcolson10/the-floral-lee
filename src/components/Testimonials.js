@@ -3,23 +3,23 @@ import { Link } from "react-router-dom";
 
 const testimonialsData = [
 	{
-		text: "Shelby Floral made my dream bouquet for my wedding! The flowers were beautifully put together and made on time so I never had to worry about anything. I loved them, I still look at the pics at least once a week they just were so gorgeous. They were the perfect final touch!",
+		text: "The Floral Lee made my dream bouquet for my wedding! The flowers were beautifully put together and made on time so I never had to worry about anything. I loved them, I still look at the pics at least once a week they just were so gorgeous. They were the perfect final touch!",
 		name: "Kensie W.",
 	},
 	{
-		text: "Shelby Floral is an absolute dream to work with!! They were able to understand and execute my wedding floral vision perfectly. They are SO knowledgeable and made the planning so much fun, instead of stressful. I strongly recommend them to everyone I know.",
+		text: "The Floral Lee is an absolute dream to work with!! They were able to understand and execute my wedding floral vision perfectly. They are SO knowledgeable and made the planning so much fun, instead of stressful. I strongly recommend them to everyone I know.",
 		name: "Grace G.",
 	},
 	{
-		text: "Shelby Floral was incredible! I feel like the vision I had was kind of scattered, but they executed it perfectly and exceeded any expectations I had. I still get so many compliments on the florals from my wedding!",
+		text: "The Floral Lee was incredible! I feel like the vision I had was kind of scattered, but they executed it perfectly and exceeded any expectations I had. I still get so many compliments on the florals from my wedding!",
 		name: "Lacee J.",
 	},
 	{
-		text: "10/10. Booked Shelby Floral after seeing their work on Instagram and they did not disappoint. My arch was the most beautiful thing I have ever seen in my life and I am not exaggerating.",
+		text: "10/10. Booked The Floral Lee after seeing their work on Instagram and they did not disappoint. My arch was the most beautiful thing I have ever seen in my life and I am not exaggerating.",
 		name: "Tatum R.",
 	},
 	{
-		text: "Getting married is stressful. Shelby Floral was one of the few parts of the process that was genuinely fun. They were excited about our vision, communicated clearly, and showed up and made it all real.",
+		text: "Getting married is stressful. The Floral Lee was one of the few parts of the process that was genuinely fun. They were excited about our vision, communicated clearly, and showed up and made it all real.",
 		name: "Peyton A.",
 	},
 	{

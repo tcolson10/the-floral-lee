@@ -3,27 +3,27 @@ import { Link } from 'react-router-dom';
 
 const testimonialsData = [
     {
-        text: "I absolutely loved having Shelby Floral do my flowers! The flowers were perfectly on time where I needed them and she made everything so simple and organized for me. It was just one less thing I had to worry about on my wedding day and I was so obsessed with how amazing my florals were! I completely trusted them and their talents and they executed everything PERFECTLY!! 1000% would recommend them!",
+        text: "I absolutely loved having The Floral Lee do my flowers! The flowers were perfectly on time where I needed them and she made everything so simple and organized for me. It was just one less thing I had to worry about on my wedding day and I was so obsessed with how amazing my florals were! I completely trusted them and their talents and they executed everything PERFECTLY!! 1000% would recommend them!",
         name: "Bailey B."
     },
     {
-        text: "Shelby Floral made my dream bouquet for my wedding! The flowers were beautifully put together and made on time so I never had to worry about anything. I loved them, I still look at the pics at least once a week they just were so gorgeous. They were the perfect final touch!",
+        text: "The Floral Lee made my dream bouquet for my wedding! The flowers were beautifully put together and made on time so I never had to worry about anything. I loved them, I still look at the pics at least once a week they just were so gorgeous. They were the perfect final touch!",
         name: "Kensie W."
     },
     {
-        text: "Shelby Floral is an absolute dream to work with!! They were able to understand and execute my wedding floral vision perfectly. They are SO knowledgeable and made the planning so much fun, instead of stressful. I strongly recommend them to everyone I know.",
+        text: "The Floral Lee is an absolute dream to work with!! They were able to understand and execute my wedding floral vision perfectly. They are SO knowledgeable and made the planning so much fun, instead of stressful. I strongly recommend them to everyone I know.",
         name: "Grace G."
     },
     {
-        text: "Shelby Floral was incredible! I feel like the vision I had was kind of scattered, but they executed it perfectly and exceeded any expectations I had. I still get so many compliments on the florals from my wedding!",
+        text: "The Floral Lee was incredible! I feel like the vision I had was kind of scattered, but they executed it perfectly and exceeded any expectations I had. I still get so many compliments on the florals from my wedding!",
         name: "Lacee J."
     },
     {
-        text: "Shelby Floral was amazing to work with! I showed them all of my inspo pics and they made all of my wedding flower dreams come true. They made sure I had flowers everywhere I wanted and my bouquet was gorgeous! They also did all the flowers and table settings for my baby shower a year later and it was to die for. They really listened to what I wanted and brought it to life! I can't wait to keep using them for all my future events. Absolutely recommend to anyone and everyone!",
+        text: "The Floral Lee was amazing to work with! I showed them all of my inspo pics and they made all of my wedding flower dreams come true. They made sure I had flowers everywhere I wanted and my bouquet was gorgeous! They also did all the flowers and table settings for my baby shower a year later and it was to die for. They really listened to what I wanted and brought it to life! I can't wait to keep using them for all my future events. Absolutely recommend to anyone and everyone!",
         name: "Michelle C."
     },
     {
-        text: "10/10. Booked Shelby Floral after seeing their work on Instagram and they did not disappoint. My arch was the most beautiful thing I have ever seen in my life and I am not exaggerating.",
+        text: "10/10. Booked The Floral Lee after seeing their work on Instagram and they did not disappoint. My arch was the most beautiful thing I have ever seen in my life and I am not exaggerating.",
         name: "Tatum R."
     },
     {
@@ -35,7 +35,7 @@ const testimonialsData = [
         name: "Jess T."
     },
     {
-        text: "We hired Shelby Floral for our daughter's wedding and they were absolutely wonderful. So easy to work with and so responsive the whole time. The ceremony arch stopped people in their tracks and we had multiple guests asking for their info before the night was even over!!",
+        text: "We hired The Floral Lee for our daughter's wedding and they were absolutely wonderful. So easy to work with and so responsive the whole time. The ceremony arch stopped people in their tracks and we had multiple guests asking for their info before the night was even over!!",
         name: "Diane H."
     },
     {
@@ -55,11 +55,11 @@ const testimonialsData = [
         name: "Mia F."
     },
     {
-        text: "We used Shelby Floral for a work event and I was honestly shocked by how incredible everything looked. I wasn't sure if they did non-wedding stuff but they totally nailed the vibe. The arrangements were the most talked about thing there and we are already planning to use them again.",
+        text: "We used The Floral Lee for a work event and I was honestly shocked by how incredible everything looked. I wasn't sure if they did non-wedding stuff but they totally nailed the vibe. The arrangements were the most talked about thing there and we are already planning to use them again.",
         name: "Rachel D."
     },
     {
-        text: "Getting married is stressful and most vendors made it more stressful. Shelby Floral was genuinely one of the most fun parts of the whole planning process. They got our vision, they communicated, and they showed up and made it real. Loved working with them so much.",
+        text: "Getting married is stressful and most vendors made it more stressful. The Floral Lee was genuinely one of the most fun parts of the whole planning process. They got our vision, they communicated, and they showed up and made it real. Loved working with them so much.",
         name: "Peyton A."
     },
     {

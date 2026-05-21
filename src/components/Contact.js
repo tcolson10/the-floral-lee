@@ -10,7 +10,7 @@ function Contact() {
 			</div>
 			<form
 				className="contact-form"
-				action="https://formspree.io/f/mwkgrzrd"
+				action="https://formspree.io/f/REPLACE_WITH_LEE_FORM_ID"
 				method="POST"
 			>
 				<div className="form-row">

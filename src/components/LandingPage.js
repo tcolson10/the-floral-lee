@@ -23,15 +23,15 @@ const LandingPage = () => {
 					<span className="hero-eyebrow hero-fade-in" style={{ animationDelay: "200ms" }}>Wedding Floral Design</span>
 					<h1 className="hero-headline">
 						<em>
-							{"Shelby Floral".split("").map((char, i) => (
+							{"The Floral".split("").map((char, i) => (
 								<span key={i} className="hero-letter" style={{ animationDelay: `${400 + i * 80}ms` }}>
 									{char === " " ? "\u00A0" : char}
 								</span>
 							))}
 						</em>
 						<span className="hero-headline-sub">
-							{"Company".split("").map((char, i) => (
-								<span key={i} className="hero-letter hero-letter--sub" style={{ animationDelay: `${400 + 13 * 80 + 200 + i * 80}ms` }}>
+							{"Lee".split("").map((char, i) => (
+								<span key={i} className="hero-letter hero-letter--sub" style={{ animationDelay: `${400 + 10 * 80 + 200 + i * 80}ms` }}>
 									{char}
 								</span>
 							))}
@@ -63,10 +63,6 @@ const LandingPage = () => {
 				<div className="stat-item">
 					<span className="stat-number">Utah</span>
 					<span className="stat-label">Florist</span>
-				</div>
-				<div className="stat-item">
-					<span className="stat-number">Est.</span>
-					<span className="stat-label">2022</span>
 				</div>
 				<div className="stat-item">
 					<span className="stat-number">100+</span>
@@ -101,7 +97,7 @@ const LandingPage = () => {
 						Every arrangement we create starts with you, your story, your vision, your day.
 					</p>
 					<p>
-						Shelby Floral Company creates custom, thoughtfully designed
+						The Floral Lee creates custom, thoughtfully designed
 						arrangements that bring your vision to life and exceed every
 						expectation.
 					</p>
