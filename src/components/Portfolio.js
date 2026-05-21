@@ -2,7 +2,13 @@ import { Link } from "react-router-dom";
 
 const imageData = [
 	"/images/portfolio/ryan_rex.jpeg",
+	"/images/portfolio/31DF05DE-173F-4413-BE67-981734AD240A.png",
+	"/images/portfolio/A026D1B3-872D-48AC-819A-9B2375B3BA87.jpeg",
+	"/images/portfolio/BEB46068-AAFF-4F9B-A081-0511D326EC0C.jpeg",
 	"/images/portfolio/ryan_rex.jpeg",
+	"/images/portfolio/31DF05DE-173F-4413-BE67-981734AD240A.png",
+	"/images/portfolio/A026D1B3-872D-48AC-819A-9B2375B3BA87.jpeg",
+	"/images/portfolio/BEB46068-AAFF-4F9B-A081-0511D326EC0C.jpeg",
 	"/images/portfolio/ryan_rex.jpeg",
 ];
 
