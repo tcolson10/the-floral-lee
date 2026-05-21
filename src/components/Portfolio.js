@@ -1,15 +1,15 @@
 import { Link } from "react-router-dom";
 
 const imageData = [
-	"/images/portfolio/IMG_1325.jpg",
-	"/images/portfolio/IMG_4485.jpg",
-	"/images/portfolio/IMG_8790.jpg",
-	"/images/portfolio/IMG_0413.jpeg",
-	"/images/portfolio/IMG_6162.jpg",
-	"/images/portfolio/IMG_1708.jpg",
-	"/images/portfolio/IMG_6983.jpg",
-	"/images/portfolio/IMG_6645.JPG",
-	"/images/portfolio/IMG_6008.jpg",
+	"/images/portfolio/ryan_rex.jpeg",
+	"/images/portfolio/ryan_rex.jpeg",
+	"/images/portfolio/ryan_rex.jpeg",
+	"/images/portfolio/ryan_rex.jpeg",
+	"/images/portfolio/ryan_rex.jpeg",
+	"/images/portfolio/ryan_rex.jpeg",
+	"/images/portfolio/ryan_rex.jpeg",
+	"/images/portfolio/ryan_rex.jpeg",
+	"/images/portfolio/ryan_rex.jpeg",
 ];
 
 function Portfolio() {

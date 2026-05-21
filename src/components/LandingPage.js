@@ -17,7 +17,7 @@ const LandingPage = () => {
 		<div>
 			{/* Hero */}
 			<div className="hero" id="home">
-				<img src="/images/portfolio/IMG_0597.jpeg" className="hero-bg" alt="" />
+				<img src="/images/portfolio/ryan_rex.jpeg" className="hero-bg" alt="" />
 				<div className="hero-overlay" />
 				<div className="hero-content">
 					<span className="hero-eyebrow hero-fade-in" style={{ animationDelay: "200ms" }}>Wedding Floral Design</span>
@@ -83,8 +83,8 @@ const LandingPage = () => {
 			<div className="about-section reveal">
 				<div className="about-image">
 					<img
-						src="/images/portfolio/IMG_4486.jpg"
-						alt="Shelby Floral design"
+						src="/images/portfolio/ryan_rex.jpeg"
+						alt="The Floral Lee"
 						loading="lazy"
 					/>
 				</div>
