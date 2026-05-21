@@ -452,6 +452,7 @@ nav li a:focus {
 	justify-content: center;
 	text-align: center;
 	overflow: hidden;
+	background: var(--warm-charcoal);
 }
 
 .hero-bg {
@@ -462,6 +463,13 @@ nav li a:focus {
 	object-fit: cover;
 	object-position: center 44%;
 	z-index: 0;
+	opacity: 0;
+	animation: heroBgFadeIn 1.8s ease 0.2s forwards;
+}
+
+@keyframes heroBgFadeIn {
+	from { opacity: 0; }
+	to   { opacity: 1; }
 }
 
 @media (min-width: 769px) {
