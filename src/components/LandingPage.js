@@ -18,7 +18,14 @@ const LandingPage = () => {
 		<div>
 			{/* Hero */}
 			<div className="hero" id="home">
-				<img src="/images/portfolio/A9BD9E8C-FD73-4C65-B1C2-1B26D15FA66B.jpeg" className="hero-bg" alt="" />
+				<video
+					className="hero-bg"
+					src="/images/portfolio/video.mov"
+					autoPlay
+					muted
+					loop
+					playsInline
+				/>
 				<div className="hero-overlay" />
 				<div className="hero-content">
 					<span className="hero-eyebrow hero-fade-in" style={{ animationDelay: "200ms" }}>Wedding Floral Design</span>
@@ -75,12 +82,11 @@ const LandingPage = () => {
 
 			{/* Meet Your Florist Preview */}
 			<div className="about-section reveal" id="meet">
-				<div className="about-image">
-					<img
-						src="/images/portfolio/60C0321F-D969-465E-B8C1-3DC0FB7C835B.png"
-						alt="Shanna, The Floral Lee"
-						loading="lazy"
-					/>
+				<div className="about-collage">
+					<img src="/images/portfolio/SL208448.jpg" alt="" loading="lazy" />
+					<img src="/images/portfolio/SL208530.jpg" alt="" loading="lazy" />
+					<img src="/images/portfolio/SL208618.jpg" alt="" loading="lazy" />
+					<img src="/images/portfolio/SL208247.jpg" alt="" loading="lazy" />
 				</div>
 				<div className="about-text">
 					<span className="section-eyebrow">Meet Your Florist</span>

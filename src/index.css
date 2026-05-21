@@ -809,6 +809,27 @@ nav li a:focus {
 	transform: scale(1.04);
 }
 
+.about-collage {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	gap: 4px;
+	min-height: 580px;
+}
+
+.about-collage img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+	transition: transform 0.7s ease;
+}
+
+.about-collage img:hover {
+	transform: scale(1.05);
+	z-index: 1;
+}
+
 .about-text {
 	display: flex;
 	flex-direction: column;
@@ -860,6 +881,11 @@ nav li a:focus {
 
 	.about-image {
 		height: 380px;
+	}
+
+	.about-collage {
+		min-height: 360px;
+		grid-template-rows: 1fr 1fr;
 	}
 
 	.about-text {
