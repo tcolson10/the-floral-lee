@@ -814,6 +814,7 @@ nav li a:focus {
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 290px 290px;
 	gap: 4px;
+	padding: 40px;
 }
 
 .about-collage img {
