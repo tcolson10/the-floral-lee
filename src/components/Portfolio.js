@@ -4,12 +4,6 @@ const imageData = [
 	"/images/portfolio/ryan_rex.jpeg",
 	"/images/portfolio/ryan_rex.jpeg",
 	"/images/portfolio/ryan_rex.jpeg",
-	"/images/portfolio/ryan_rex.jpeg",
-	"/images/portfolio/ryan_rex.jpeg",
-	"/images/portfolio/ryan_rex.jpeg",
-	"/images/portfolio/ryan_rex.jpeg",
-	"/images/portfolio/ryan_rex.jpeg",
-	"/images/portfolio/ryan_rex.jpeg",
 ];
 
 function Portfolio() {
