@@ -147,7 +147,7 @@ function App() {
 				</div>
 				<div className="footer-email">
 					<a
-						href="mailto:theflorallee@gmail.com"
+						href="mailto:thefloral.lee@gmail.com"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
@@ -155,7 +155,7 @@ function App() {
 							<rect x="2" y="4" width="20" height="16" rx="2"/>
 							<polyline points="2,4 12,13 22,4"/>
 						</svg>
-						<span>theflorallee@gmail.com</span>
+						<span>thefloral.lee@gmail.com</span>
 					</a>
 				</div>
 			</footer>
