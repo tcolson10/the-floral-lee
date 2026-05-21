@@ -81,7 +81,11 @@ function App() {
 			<BookingPopup />
 			<header className={navTransparent ? "nav-transparent" : "nav-scrolled"}>
 				<Link to="/" className="webTitle" onClick={() => setIsMenuOpen(false)}>
-					<span className="navMonogram">FL</span>
+					<img
+						src={navTransparent ? "/images/logos/logo-rect-cream.png" : "/images/logos/logo-rect-dark.png"}
+						alt="The Floral Lee"
+						className="nav-logo"
+					/>
 				</Link>
 				<button
 					className={`hamburger ${isMenuOpen ? "active" : ""}`}
@@ -144,6 +148,9 @@ function App() {
 				</Routes>
 			</main>
 			<footer className="site-footer">
+				<div className="footer-logo">
+					<img src="/images/logos/logo-round-mauve.png" alt="The Floral Lee" className="footer-logo-img" />
+				</div>
 				<div className="footer-instagram">
 					<a
 						href="https://www.instagram.com/thefloral.lee/"
