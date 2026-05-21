@@ -437,9 +437,15 @@ nav li a:focus {
 @media (max-width: 768px) {
 	.site-footer {
 		display: flex;
-		flex-direction: column;
-		gap: 28px;
-		padding: 48px 24px;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 24px 40px;
+		padding: 44px 24px;
+	}
+
+	.footer-logo {
+		order: -1;
+		flex: 0 0 100%;
 	}
 
 	.footer-email,
