@@ -885,6 +885,7 @@ nav li a:focus {
 
 	.about-collage {
 		grid-template-rows: 180px 180px;
+		padding: 24px;
 	}
 
 	.about-text {
@@ -893,6 +894,11 @@ nav li a:focus {
 }
 
 @media (max-width: 480px) {
+	.about-collage {
+		grid-template-rows: 150px 150px;
+		padding: 16px;
+	}
+
 	.about-text {
 		padding: 48px 24px;
 	}

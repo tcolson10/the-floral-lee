@@ -14,12 +14,11 @@ function MeetYourFlorist() {
 				</Link>
 			</div>
 			<div className="about-section" style={{ paddingTop: "2rem" }}>
-				<div className="about-image">
-					<img
-						src="/images/portfolio/SL208247.jpg"
-						alt="Shanna, The Floral Lee"
-						loading="lazy"
-					/>
+			<div className="about-collage">
+					<img src="/images/portfolio/SL208448.jpg" alt="" loading="lazy" />
+					<img src="/images/portfolio/SL208530.jpg" alt="" loading="lazy" />
+					<img src="/images/portfolio/SL208618.jpg" alt="" loading="lazy" />
+					<img src="/images/portfolio/SL208247.jpg" alt="" loading="lazy" />
 				</div>
 				<div className="about-text">
 					<span className="section-eyebrow">Meet Your Florist</span>
