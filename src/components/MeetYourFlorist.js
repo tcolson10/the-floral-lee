@@ -17,14 +17,14 @@ function MeetYourFlorist() {
 				<div className="about-image">
 					<img
 						src="/images/portfolio/60C0321F-D969-465E-B8C1-3DC0FB7C835B.png"
-						alt="Lee, The Floral Lee"
+						alt="Shanna, The Floral Lee"
 						loading="lazy"
 					/>
 				</div>
 				<div className="about-text">
 					<span className="section-eyebrow">Meet Your Florist</span>
 					<h1 className="section-heading">
-						Hi, I'm <em>Lee</em>
+						Hi, I'm <em>Shanna</em>
 					</h1>
 					<p>
 						Flowers have been my thing for as long as I can remember — the way a single arrangement can completely change the feeling of a room, the way a bouquet can make a bride stop and cry, the way the right bloom in the right place just makes everything feel like it was meant to be. That's what I get to do every single day, and I genuinely cannot believe it's my job.
