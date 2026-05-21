@@ -101,7 +101,7 @@ const LandingPage = () => {
 						Based in Austin, Texas, I create custom floral designs for weddings and events that feel personal, intentional, and completely you.
 					</p>
 					<Link to="/meet-your-florist" className="about-cta">
-						Meet Lee
+						Read More
 					</Link>
 				</div>
 			</div>

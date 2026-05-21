@@ -58,7 +58,7 @@ function App() {
 	useEffect(() => {
 		const path = location.pathname.replace(/^\//, "");
 		if (
-			["", "home", "pricing", "portfolio", "testimonials", "contact"].includes(
+			["", "home", "pricing", "portfolio", "meet", "testimonials", "contact"].includes(
 				path
 			)
 		) {
@@ -106,10 +106,10 @@ function App() {
 						</li>
 						<li>
 							<Link
-								to="/meet-your-florist"
-								onClick={() => setIsMenuOpen(false)}
+								to="/meet"
+								onClick={() => handleNavigation("meet")}
 							>
-								Meet Lee
+								Meet Your Florist
 							</Link>
 						</li>
 						<li>
@@ -133,6 +133,7 @@ function App() {
 					<Route path="/" element={<LandingPage />} />
 					<Route path="/about" element={<About />} />
 					<Route path="/portfolio" element={<LandingPage />} />
+					<Route path="/meet" element={<LandingPage />} />
 					<Route path="/testimonials" element={<LandingPage />} />
 					<Route path="/contact" element={<LandingPage />} />
 					<Route path="/full-portfolio" element={<PortfolioFull />} />
