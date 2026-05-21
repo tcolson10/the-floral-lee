@@ -24,22 +24,15 @@ const LandingPage = () => {
 					<span className="hero-eyebrow hero-fade-in" style={{ animationDelay: "200ms" }}>Wedding Floral Design</span>
 					<h1 className="hero-headline">
 						<em>
-							{"The Floral".split("").map((char, i) => (
+							{"The Floral Lee".split("").map((char, i) => (
 								<span key={i} className="hero-letter" style={{ animationDelay: `${400 + i * 80}ms` }}>
 									{char === " " ? " " : char}
 								</span>
 							))}
 						</em>
-						<span className="hero-headline-sub">
-							{"Lee".split("").map((char, i) => (
-								<span key={i} className="hero-letter hero-letter--sub" style={{ animationDelay: `${400 + 10 * 80 + 200 + i * 80}ms` }}>
-									{char}
-								</span>
-							))}
-						</span>
 					</h1>
-					<p className="hero-tagline hero-fade-in" style={{ animationDelay: "2400ms" }}>Where every bloom tells your story</p>
-					<div className="hero-actions hero-fade-in" style={{ animationDelay: "2600ms" }}>
+					<p className="hero-tagline hero-fade-in" style={{ animationDelay: "1800ms" }}>Where every bloom tells your story</p>
+					<div className="hero-actions hero-fade-in" style={{ animationDelay: "2000ms" }}>
 						<button
 							className="hero-btn-primary"
 							onClick={() => scrollTo("portfolio")}
@@ -85,7 +78,7 @@ const LandingPage = () => {
 				<div className="about-image">
 					<img
 						src="/images/portfolio/60C0321F-D969-465E-B8C1-3DC0FB7C835B.png"
-						alt="Lee, The Floral Lee"
+						alt="Shanna, The Floral Lee"
 						loading="lazy"
 					/>
 				</div>
@@ -95,7 +88,7 @@ const LandingPage = () => {
 						The person behind <em>every bloom</em>
 					</h2>
 					<p>
-						Hi, I'm Lee! I'm the hands and heart behind The Floral Lee, and I've been obsessed with flowers for as long as I can remember.
+						Hi, I'm Shanna! I'm the hands and heart behind The Floral Lee, and I've been obsessed with flowers for as long as I can remember.
 					</p>
 					<p>
 						Based in Austin, Texas, I create custom floral designs for weddings and events that feel personal, intentional, and completely you.
