@@ -1,20 +1,20 @@
 /* ======== CSS VARIABLES ======== */
 :root {
 	--cream: #faf8f5;
-	--ivory: #f2eaeb;
-	--sage: #bf878d;
-	--sage-dark: #9e6069;
-	--sage-light: #d4adb2;
+	--ivory: #f5ecee;
+	--sage: #d4848f;
+	--sage-dark: #bf6e78;
+	--sage-light: #e8b8be;
 	--warm-charcoal: #241a1b;
 	--warm-gray: #6b5558;
 	--muted: #a08e90;
-	--border: #e3d5d7;
+	--border: #ebd5d8;
 	--white: #ffffff;
 
 	/* Legacy aliases so nothing breaks */
 	--primary-color: var(--sage);
 	--primary-dark: var(--sage-dark);
-	--primary-color-alpha: rgba(191, 135, 141, 0.25);
+	--primary-color-alpha: rgba(212, 132, 143, 0.25);
 	--text-color: var(--warm-charcoal);
 	--light-gray: var(--cream);
 	--portfolio-bg: var(--ivory);
