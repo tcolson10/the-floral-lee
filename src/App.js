@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import {
 	Routes,
 	Route,
@@ -6,7 +6,6 @@ import {
 	useNavigate,
 	useLocation,
 } from "react-router-dom";
-import ReactGA4 from "react-ga4";
 import "./App.css";
 import LandingPage from "./components/LandingPage";
 import About from "./components/About";
@@ -18,25 +17,6 @@ function App() {
 	const [scrolled, setScrolled] = useState(false);
 	const navigate = useNavigate();
 	const location = useLocation();
-	const gaInitialized = useRef(false);
-
-	// Initialize GA4 once on mount
-	useEffect(() => {
-		if (!gaInitialized.current) {
-			ReactGA4.initialize("G-9P0D4PPB65");
-			gaInitialized.current = true;
-		}
-	}, []);
-
-	// Track page views on route change
-	useEffect(() => {
-		ReactGA4.send({
-			hitType: "pageview",
-			page_title: document.title,
-			page_location: window.location.href,
-			page_path: location.pathname + location.search,
-		});
-	}, [location]);
 
 	// Transparent nav: track scroll position
 	useEffect(() => {
@@ -153,7 +133,7 @@ function App() {
 			<footer className="site-footer">
 				<div className="footer-instagram">
 					<a
-						href="https://www.instagram.com/theflorallee/"
+						href="https://www.instagram.com/thefloral.lee/"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
