@@ -148,9 +148,6 @@ function App() {
 				</Routes>
 			</main>
 			<footer className="site-footer">
-				<div className="footer-logo">
-					<img src="/images/logos/logo-round-mauve.png" alt="The Floral Lee" className="footer-logo-img" />
-				</div>
 				<div className="footer-instagram">
 					<a
 						href="https://www.instagram.com/thefloral.lee/"
@@ -164,6 +161,9 @@ function App() {
 						</svg>
 						<span>Instagram</span>
 					</a>
+				</div>
+				<div className="footer-logo">
+					<img src="/images/logos/logo-round-mauve.png" alt="The Floral Lee" className="footer-logo-img" />
 				</div>
 				<div className="footer-email">
 					<a
