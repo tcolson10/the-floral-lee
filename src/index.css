@@ -812,9 +812,8 @@ nav li a:focus {
 .about-collage {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
+	grid-template-rows: 290px 290px;
 	gap: 4px;
-	min-height: 580px;
 }
 
 .about-collage img {
@@ -884,8 +883,7 @@ nav li a:focus {
 	}
 
 	.about-collage {
-		min-height: 360px;
-		grid-template-rows: 1fr 1fr;
+		grid-template-rows: 180px 180px;
 	}
 
 	.about-text {
