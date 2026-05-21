@@ -18,7 +18,7 @@ const LandingPage = () => {
 		<div>
 			{/* Hero */}
 			<div className="hero" id="home">
-				<img src="/images/portfolio/ryan_rex.jpeg" className="hero-bg" alt="" />
+				<img src="/images/portfolio/A9BD9E8C-FD73-4C65-B1C2-1B26D15FA66B.jpeg" className="hero-bg" alt="" />
 				<div className="hero-overlay" />
 				<div className="hero-content">
 					<span className="hero-eyebrow hero-fade-in" style={{ animationDelay: "200ms" }}>Wedding Floral Design</span>
