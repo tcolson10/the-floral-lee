@@ -7,7 +7,7 @@ const testimonialsData = [
 		name: "Katy W.",
 	},
 	{
-		text: "Where do I even start? Everything was BEYOND perfect. Shanna answered all my questions in a timely manner and made 100% sure she and I were on the same page about the vision I had. Not only were my florals better than anything my wife and I could have ever dreamed of, Shanna and her husband were an absolute delight to work with. If you're wanting high quality, stunning florals from someone just as wonderful as their work, don't look any further because Shanna is absolutely your girl.",
+		text: "Where do I even start? Everything was BEYOND perfect. Not only were my florals better than anything my wife and I could have ever dreamed of, Shanna and her husband were an absolute delight to work with. If you're wanting high quality, stunning florals from someone just as wonderful as their work, don't look any further because Shanna is absolutely your girl.",
 		name: "Chelsea R.",
 	},
 	{
