@@ -10,7 +10,8 @@ function Contact() {
 			</div>
 			<form
 				className="contact-form"
-				onSubmit={(e) => e.preventDefault()}
+				action="https://formspree.io/f/xaqkozdy"
+				method="POST"
 			>
 				<div className="form-row">
 					<div className="form-group">
