@@ -3,15 +3,15 @@ import { Link } from "react-router-dom";
 
 const testimonialsData = [
 	{
-		text: "It's hard to put into words how perfect my wedding florals from Shanna were! She gave me beautiful options that fit within my budget and made the entire process so easy. I truly can't get over how beautiful my bouquet was. She made my wedding floral dreams come true! Every person I show my wedding photos to comments on how beautiful they were! I will NEVER get over them. I'll be 80 years old and still thinking about them.",
+		text: "It's hard to put into words how perfect my wedding florals from Shanna were! She gave me beautiful options that fit within my budget and made the entire process so easy. She made my wedding floral dreams come true! Every person I show my wedding photos to comments on how beautiful they were! I will NEVER get over them. I'll be 80 years old and still thinking about them.",
 		name: "Katy W.",
 	},
 	{
-		text: "Where do I even start? Everything was BEYOND perfect. Not only were my florals better than anything my wife and I could have ever dreamed of, Shanna and her husband were an absolute delight to work with. If you're wanting high quality, stunning florals from someone just as wonderful as their work, don't look any further because Shanna is absolutely your girl.",
+		text: "Where do I even start? Everything was BEYOND perfect. Not only were my florals better than anything my wife and I could have ever dreamed of, Shanna and her husband were an absolute delight to work with. Don't look any further because Shanna is absolutely your girl.",
 		name: "Chelsea R.",
 	},
 	{
-		text: "Wow! Words can't describe how happy I am that I chose The Floral Lee to bring our wedding flowers to life. Let me just tell you: INVEST in your florals! Shanna's floral design really elevated the entire reception. We felt like we were in heaven with all the blues and whites she chose. If you are in the Austin area, I'd highly recommend Shanna to bring your wedding florals to life!",
+		text: "Wow! Words can't describe how happy I am that I chose The Floral Lee to bring our wedding flowers to life. Let me just tell you: INVEST in your florals! Shanna's floral design really elevated the entire reception. I'd highly recommend Shanna to bring your wedding florals to life!",
 		name: "Elizabeth S.",
 	},
 	{
@@ -23,15 +23,15 @@ const testimonialsData = [
 		name: "Aubree A.",
 	},
 	{
-		text: "Our wedding day was made even more special thanks to our amazing florist, Shanna. She truly exceeded our expectations in bringing our vision to life. I was absolutely in love with my bouquet — it was a stunning masterpiece that I couldn't take my eyes off of. Her dedication and talent made our wedding day an unforgettable experience, and we are so grateful for her incredible work.",
+		text: "Our wedding day was made even more special thanks to our amazing florist, Shanna. I was absolutely in love with my bouquet — it was a stunning masterpiece that I couldn't take my eyes off of. Her dedication and talent made our wedding day an unforgettable experience, and we are so grateful for her incredible work.",
 		name: "Renée K.",
 	},
 	{
-		text: "The most important thing on my wedding day was having beautiful florals at a reasonable price, and The Floral Lee exceeded all of my expectations. Out of everything at my wedding, I received the most compliments on my florals. The Floral Lee was easy to work with, reasonable, accommodating, creative, and overall just amazing. The florals pulled everything together so seamlessly. 10/10 recommend!",
+		text: "The most important thing on my wedding day was having beautiful florals at a reasonable price, and The Floral Lee exceeded all of my expectations. The Floral Lee was easy to work with, reasonable, accommodating, creative, and overall just amazing. The florals pulled everything together so seamlessly. 10/10 recommend!",
 		name: "Jillian M.",
 	},
 	{
-		text: "I cannot thank you enough for bringing my floral and greenery vision to life on my wedding day. Everything was absolutely stunning — from the bouquet to the ceremony arrangements and every little detail in between. You truly captured the look and feeling I had dreamed of, and I'm so incredibly thankful. Your talent and artistry made such a meaningful impact on one of the most important days of my life!",
+		text: "I cannot thank you enough for bringing my floral and greenery vision to life on my wedding day. Everything was absolutely stunning — from the bouquet to the ceremony arrangements and every little detail in between. You truly captured the look and feeling I had dreamed of, and I'm so incredibly thankful.",
 		name: "Meredith G.",
 	},
 	{
