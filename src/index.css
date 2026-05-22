@@ -858,8 +858,12 @@ nav li a:focus {
 		transform var(--transition-speed) ease;
 }
 
-.about-cta:hover {
+.about-cta:hover,
+.about-cta:focus,
+.about-cta:visited {
 	background: var(--sage-dark);
+	color: var(--white);
+	text-decoration: none;
 	transform: translateY(-2px);
 }
 
