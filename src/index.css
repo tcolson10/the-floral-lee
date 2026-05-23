@@ -1762,11 +1762,40 @@ nav li a:focus {
 }
 
 .faq-icon {
-	font-size: 1.4rem;
-	font-weight: 300;
-	color: var(--sage);
+	position: relative;
+	width: 12px;
+	height: 12px;
 	flex-shrink: 0;
-	transition: transform var(--transition-speed) ease;
+}
+
+.faq-icon-h,
+.faq-icon-v {
+	position: absolute;
+	background: var(--sage);
+	border-radius: 1px;
+	transition: transform 0.35s ease;
+	will-change: transform;
+	backface-visibility: hidden;
+}
+
+.faq-icon-h {
+	width: 12px;
+	height: 2px;
+	top: 5px;
+	left: 0;
+}
+
+.faq-icon-v {
+	width: 2px;
+	height: 12px;
+	top: 0;
+	left: 5px;
+	transform: rotate(0deg);
+	transform-origin: center center;
+}
+
+.faq-item--open .faq-icon-v {
+	transform: rotate(90deg);
 }
 
 .faq-answer-wrapper {

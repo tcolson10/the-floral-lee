@@ -50,7 +50,10 @@ function FAQ() {
 					<div key={i} className={`faq-item${openIndex === i ? " faq-item--open" : ""}`}>
 						<button className="faq-question" onClick={() => toggle(i)}>
 							<span>{item.question}</span>
-							<span className="faq-icon">{openIndex === i ? "−" : "+"}</span>
+							<span className="faq-icon" aria-hidden="true">
+							<span className="faq-icon-h" />
+							<span className="faq-icon-v" />
+						</span>
 						</button>
 						<div className="faq-answer-wrapper">
 							<div className="faq-answer">
