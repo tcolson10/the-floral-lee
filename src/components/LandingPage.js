@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Portfolio from "./Portfolio";
 import Testimonials from "./Testimonials";
 import Contact from "./Contact";
+import FAQ from "./FAQ";
 
 const LandingPage = () => {
 	const scrollTo = (id) => {
@@ -28,7 +29,7 @@ const LandingPage = () => {
 				/>
 				<div className="hero-overlay" />
 				<div className="hero-content">
-					<span className="hero-eyebrow hero-fade-in" style={{ animationDelay: "200ms" }}>Wedding Floral Design</span>
+					<span className="hero-eyebrow hero-fade-in" style={{ animationDelay: "200ms" }}>Central Texas Florist</span>
 					<h1 className="hero-headline">
 						<em>
 							{"The Floral Lee".split("").map((char, i) => (
@@ -56,26 +57,6 @@ const LandingPage = () => {
 				</div>
 			</div>
 
-			{/* Stats Bar */}
-			<div className="stats-bar">
-				<div className="stat-item">
-					<span className="stat-number">Austin, TX</span>
-					<span className="stat-label">Florist</span>
-				</div>
-				<div className="stat-item">
-					<span className="stat-number">100+</span>
-					<span className="stat-label">Events Designed</span>
-				</div>
-				<div className="stat-item">
-					<span className="stat-number">&#8734;</span>
-					<span className="stat-label">Love for Flowers</span>
-				</div>
-			</div>
-
-			{/* Portfolio */}
-			<div id="portfolio">
-				<Portfolio />
-			</div>
 
 			{/* Meet Your Florist Preview */}
 			<div className="about-section reveal" id="meet">
@@ -91,10 +72,7 @@ const LandingPage = () => {
 						The person behind <em>every bloom</em>
 					</h2>
 					<p>
-						Hi, I'm Shanna! I'm the hands and heart behind The Floral Lee, and I've been obsessed with flowers for as long as I can remember.
-					</p>
-					<p>
-						Based in Austin, Texas, I create custom floral designs for weddings and events that feel personal, intentional, and completely you.
+						Hi, I'm Shanna! My goal is to create floral designs that feel beautiful, captivating, and deeply personal to you. I want to hear all about your story — your life together, your love, and every detail you've been dreaming up for your wedding day. Every couple is uniquely different, and I believe your flowers should reflect that in a way that feels intentional and unforgettable.
 					</p>
 					<Link to="/meet-your-florist" className="about-cta">
 						Read More
@@ -107,9 +85,19 @@ const LandingPage = () => {
 				<Testimonials />
 			</div>
 
+			{/* Gallery */}
+			<div id="portfolio">
+				<Portfolio />
+			</div>
+
 			{/* Contact */}
 			<div id="contact">
 				<Contact />
+			</div>
+
+			{/* FAQ */}
+			<div id="faq">
+				<FAQ />
 			</div>
 		</div>
 	);

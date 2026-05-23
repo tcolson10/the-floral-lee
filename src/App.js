@@ -59,7 +59,7 @@ function App() {
 	useEffect(() => {
 		const path = location.pathname.replace(/^\//, "");
 		if (
-			["", "home", "pricing", "portfolio", "meet", "testimonials", "contact"].includes(
+			["", "home", "pricing", "portfolio", "meet", "testimonials", "contact", "faq"].includes(
 				path
 			)
 		) {
@@ -104,14 +104,6 @@ function App() {
 						</li>
 						<li>
 							<Link
-								to="/portfolio"
-								onClick={() => handleNavigation("portfolio")}
-							>
-								Portfolio
-							</Link>
-						</li>
-						<li>
-							<Link
 								to="/meet"
 								onClick={() => handleNavigation("meet")}
 							>
@@ -127,8 +119,21 @@ function App() {
 							</Link>
 						</li>
 						<li>
+							<Link
+								to="/portfolio"
+								onClick={() => handleNavigation("portfolio")}
+							>
+								Gallery
+							</Link>
+						</li>
+						<li>
 							<Link to="/contact" onClick={() => handleNavigation("contact")}>
 								Contact
+							</Link>
+						</li>
+						<li>
+							<Link to="/faq" onClick={() => handleNavigation("faq")}>
+								FAQ
 							</Link>
 						</li>
 					</ul>
@@ -145,6 +150,7 @@ function App() {
 					<Route path="/full-portfolio" element={<PortfolioFull />} />
 					<Route path="/full-testimonials" element={<TestimonialsFull />} />
 					<Route path="/meet-your-florist" element={<MeetYourFlorist />} />
+					<Route path="/faq" element={<LandingPage />} />
 				</Routes>
 			</main>
 			<footer className="site-footer">

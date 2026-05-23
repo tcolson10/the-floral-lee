@@ -9,7 +9,7 @@ function MeetYourFlorist() {
 	return (
 		<div className="portfolio-page-container full-page">
 			<div className="page-nav">
-				<Link to="/" className="back-link" style={{ color: "var(--sage)" }}>
+				<Link to="/meet" className="back-link" style={{ color: "var(--sage)" }}>
 					← Back to Home
 				</Link>
 			</div>
@@ -27,16 +27,10 @@ function MeetYourFlorist() {
 						Hi, I'm <em>Shanna</em>
 					</h1>
 					<p>
-						Flowers have been my thing for as long as I can remember — the way a single arrangement can completely change the feeling of a room, the way a bouquet can make a bride stop and cry, the way the right bloom in the right place just makes everything feel like it was meant to be. That's what I get to do every single day, and I genuinely cannot believe it's my job.
+						Hi, I'm Shanna! My goal is to create floral designs that feel beautiful, captivating, and deeply personal to you. I want to hear all about your story — your life together, your love, and every detail you've been dreaming up for your wedding day. Every couple is uniquely different, and I believe your flowers should reflect that in a way that feels intentional and unforgettable.
 					</p>
 					<p>
-						I started The Floral Lee because I wanted to create something personal. Not a big production, not a conveyor belt of identical centerpieces — real, custom, intentional floral design for people who care about the details. Every couple I work with gets my full attention, from the first conversation all the way to the morning of the event.
-					</p>
-					<p>
-						Based in Austin, Texas, I work with weddings, bridal showers, baby showers, corporate events, and really anything where flowers can make the moment feel more like <em>you</em>. I love a good mood board, a scattered Pinterest folder, and the challenge of taking someone's scattered vision and making it into something even better than they imagined.
-					</p>
-					<p>
-						If you're here, I'd love to work with you. Reach out and let's talk flowers.
+						From the overall atmosphere to the smallest meaningful touches, I love designing florals that not only elevate your celebration, but also tell your story. My hope is that when you look back on your wedding day, your flowers feel like an extension of you — romantic, thoughtful, and full of feeling. I'm so honored to be a small part of such a meaningful season in your life, and I can't wait to create something truly beautiful together.
 					</p>
 					<Link to="/contact" className="about-cta">
 						Get In Touch

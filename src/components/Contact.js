@@ -79,7 +79,7 @@ function Contact() {
 
 				<div className="form-group">
 					<label className="form-label" htmlFor="pinterestLink">Pinterest Board</label>
-					<input type="url" id="pinterestLink" name="pinterestLink" placeholder="Share your Pinterest board or inspiration images here if you have them" />
+					<input type="url" id="pinterestLink" name="pinterestLink" placeholder="Link to your Pinterest board or any inspiration" />
 				</div>
 
 				<div className="submit-button-container">
