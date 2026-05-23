@@ -1780,16 +1780,16 @@ nav li a:focus {
 
 .faq-icon-h {
 	width: 12px;
-	height: 2px;
-	top: 5px;
+	height: 1.5px;
+	top: 5.25px;
 	left: 0;
 }
 
 .faq-icon-v {
-	width: 2px;
+	width: 1.5px;
 	height: 12px;
 	top: 0;
-	left: 5px;
+	left: 5.25px;
 	transform: rotate(0deg);
 	transform-origin: center center;
 }
