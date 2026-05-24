@@ -11,19 +11,6 @@ const imageData = [
 	"/images/portfolio/IMG_6542.jpg",
 	"/images/portfolio/IMG_6544.JPG",
 	"/images/portfolio/IMG_6548.JPG",
-	"/images/portfolio/IMG_6612.JPG",
-	"/images/portfolio/IMG_8411.JPG",
-	"/images/portfolio/IMG_8636.JPG",
-	"/images/portfolio/IMG_8666.JPG",
-	"/images/portfolio/IMG_8771.JPG",
-	"/images/portfolio/IMG_9534.JPG",
-	"/images/portfolio/IMG_9721.JPG",
-	"/images/portfolio/IMG_0099.jpg",
-	"/images/portfolio/IMG_0149.jpg",
-	"/images/portfolio/IMG_0150.jpg",
-	"/images/portfolio/IMG_0286.jpg",
-	"/images/portfolio/EverAfter1841.jpg",
-	"/images/portfolio/EverAfter2391.jpg",
 ];
 
 function Portfolio() {
