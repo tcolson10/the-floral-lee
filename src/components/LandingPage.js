@@ -61,10 +61,10 @@ const LandingPage = () => {
 			{/* Meet Your Florist Preview */}
 			<div className="about-section reveal" id="meet">
 				<div className="about-collage">
-					<img src="/images/portfolio/SL208448.jpg" alt="" loading="lazy" />
-					<img src="/images/portfolio/SL208530.jpg" alt="" loading="lazy" />
-					<img src="/images/portfolio/SL208618.jpg" alt="" loading="lazy" />
-					<img src="/images/portfolio/SL208247.jpg" alt="" loading="lazy" />
+					<img src="/images/portfolio/SL208448 (2).jpg" alt="" loading="lazy" />
+					<img src="/images/portfolio/SL208530 (2) (1).jpg" alt="" loading="lazy" />
+					<img src="/images/portfolio/SL208618 (2).jpg" alt="" loading="lazy" />
+					<img src="/images/portfolio/SL208247 (4).jpg" alt="" loading="lazy" />
 				</div>
 				<div className="about-text">
 					<span className="section-eyebrow">Meet Your Florist</span>

@@ -16,7 +16,7 @@ function MeetYourFlorist() {
 			<div className="about-section" style={{ paddingTop: "2rem" }}>
 				<div className="about-image">
 					<img
-						src="/images/portfolio/SL208247.jpg"
+						src="/images/portfolio/SL208247 (4).jpg"
 						alt="Shanna, The Floral Lee"
 						loading="lazy"
 					/>
