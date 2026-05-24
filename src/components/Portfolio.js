@@ -39,7 +39,7 @@ function Portfolio() {
 			<div className="masonry-grid">
 				{imageData.map((src, i) => (
 					<div className="masonry-item" key={i}>
-						<img src={src} alt="" loading="lazy" />
+						<img src={src} alt="" loading="lazy" onLoad={(e) => e.target.classList.add("loaded")} />
 					</div>
 				))}
 			</div>

@@ -958,13 +958,19 @@ nav li a:focus {
 	margin-bottom: 10px;
 	overflow: hidden;
 	position: relative;
+	background-color: var(--border);
 }
 
 .masonry-item img {
 	width: 100%;
 	height: auto;
 	display: block;
-	transition: transform 0.55s ease;
+	opacity: 0;
+	transition: opacity 0.5s ease, transform 0.55s ease;
+}
+
+.masonry-item img.loaded {
+	opacity: 1;
 }
 
 .masonry-item:hover img {
