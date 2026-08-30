@@ -20,11 +20,24 @@ function App() {
 	const navigate = useNavigate();
 	const location = useLocation();
 
-	// Transparent nav: track scroll position
+	// Transparent nav: track scroll position (rAF-throttled, only updates on state change)
 	useEffect(() => {
-		const onScroll = () => setScrolled(window.scrollY > 60);
+		let ticking = false;
+		let isScrolled = window.scrollY > 60;
+		setScrolled(isScrolled);
+		const onScroll = () => {
+			if (ticking) return;
+			ticking = true;
+			requestAnimationFrame(() => {
+				ticking = false;
+				const next = window.scrollY > 60;
+				if (next !== isScrolled) {
+					isScrolled = next;
+					setScrolled(next);
+				}
+			});
+		};
 		window.addEventListener("scroll", onScroll, { passive: true });
-		onScroll();
 		return () => window.removeEventListener("scroll", onScroll);
 	}, []);
 

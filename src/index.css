@@ -136,9 +136,11 @@ header {
 
 /* Transparent state — over hero */
 header.nav-transparent {
-	background: rgba(255, 255, 255, 0.06);
-	backdrop-filter: blur(6px);
-	-webkit-backdrop-filter: blur(6px);
+	background: linear-gradient(
+		to bottom,
+		rgba(15, 12, 8, 0.32) 0%,
+		rgba(15, 12, 8, 0) 100%
+	);
 	box-shadow: none;
 }
 
@@ -558,16 +560,16 @@ nav li a:focus {
 .hero-letter {
 	display: inline-block;
 	opacity: 0;
-	animation: heroLetterIn 0.5s ease forwards;
+	animation: heroLetterIn 0.35s ease forwards;
 }
 
 .hero-letter--sub {
-	animation: heroLetterInSub 0.5s ease forwards;
+	animation: heroLetterInSub 0.35s ease forwards;
 }
 
 .hero-fade-in {
 	opacity: 0;
-	animation: heroFadeIn 0.8s ease forwards;
+	animation: heroFadeIn 0.5s ease forwards;
 }
 
 @keyframes heroLetterIn {
@@ -1615,9 +1617,7 @@ nav li a:focus {
 .popup-overlay {
 	position: fixed;
 	inset: 0;
-	background: rgba(36, 26, 27, 0.55);
-	backdrop-filter: blur(4px);
-	-webkit-backdrop-filter: blur(4px);
+	background: rgba(36, 26, 27, 0.62);
 	z-index: 2000;
 	display: flex;
 	align-items: center;

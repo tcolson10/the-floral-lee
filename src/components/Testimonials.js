@@ -64,7 +64,7 @@ function Testimonials() {
 			setCurrent((c) => (c + 1) % testimonialsData.length);
 		}, 7000);
 		return () => clearInterval(timer);
-	}, [current]);
+	}, []);
 
 	const prev = () =>
 		setCurrent((c) => (c - 1 + testimonialsData.length) % testimonialsData.length);
