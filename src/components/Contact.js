@@ -49,7 +49,7 @@ function Contact() {
 				<div className="form-row">
 					<div className="form-group">
 						<label className="form-label" htmlFor="budget">Floral Budget</label>
-						<input type="text" id="budget" name="budget" placeholder="Full service wedding florals (min $4,000)" />
+						<input type="text" id="budget" name="budget" placeholder="What's your floral budget?" />
 					</div>
 					<div className="form-group">
 						<label className="form-label" htmlFor="colors">Color Palette</label>

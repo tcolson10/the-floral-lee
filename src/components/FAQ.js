@@ -4,7 +4,7 @@ const faqData = [
 	{
 		question: "How much does it cost to book with you?",
 		answer: [
-			"Wedding florals vary greatly depending on seasonality, color palette, floral selection, and the overall scope of arrangements. The Floral Lee has a minimum investment of $4,000, and from there I thoughtfully curate a custom proposal tailored to your vision and priorities.",
+			"Wedding florals vary greatly depending on seasonality, color palette, floral selection, and the overall scope of arrangements. I thoughtfully curate a custom proposal tailored to your vision and priorities.",
 		],
 	},
 	{
