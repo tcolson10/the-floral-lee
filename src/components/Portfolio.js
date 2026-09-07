@@ -1,4 +1,6 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
+import Lightbox from "./Lightbox";
 
 const imageData = [
 	{ src: "/images/portfolio/IMG_4113.JPG", w: 1113, h: 1600 },
@@ -14,6 +16,8 @@ const imageData = [
 ];
 
 function Portfolio() {
+	const [lightboxIndex, setLightboxIndex] = useState(null);
+
 	return (
 		<div className="portfolio-page-container">
 			<div className="portfolio-header reveal">
@@ -25,7 +29,13 @@ function Portfolio() {
 			</div>
 			<div className="masonry-grid">
 				{imageData.map(({ src, w, h }, i) => (
-					<div className="masonry-item" key={i}>
+					<button
+						type="button"
+						className="masonry-item"
+						key={i}
+						onClick={() => setLightboxIndex(i)}
+						aria-label="View full image"
+					>
 						<img
 							src={src}
 							alt=""
@@ -35,12 +45,19 @@ function Portfolio() {
 							decoding="async"
 							onLoad={(e) => e.target.classList.add("loaded")}
 						/>
-					</div>
+					</button>
 				))}
 			</div>
 			<Link to="/full-portfolio" className="portfolio-button">
 				View Full Gallery
 			</Link>
+			{lightboxIndex !== null && (
+				<Lightbox
+					images={imageData}
+					startIndex={lightboxIndex}
+					onClose={() => setLightboxIndex(null)}
+				/>
+			)}
 		</div>
 	);
 }
