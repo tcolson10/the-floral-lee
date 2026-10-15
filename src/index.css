@@ -1615,6 +1615,46 @@ nav li a:focus {
 	outline-offset: 3px;
 }
 
+.submit-button:disabled {
+	opacity: 0.6;
+	cursor: default;
+	transform: none;
+}
+
+.form-honeypot {
+	position: absolute;
+	left: -9999px;
+	width: 1px;
+	height: 1px;
+	opacity: 0;
+}
+
+.form-status {
+	text-align: center;
+	color: var(--warm-gray);
+	margin: 0;
+}
+
+.form-status-sent {
+	max-width: 640px;
+	padding: 40px 24px;
+	border: 1px solid var(--border);
+	background: var(--white);
+}
+
+.form-status-sent h3 {
+	font-family: var(--font-display);
+	font-size: 2rem;
+	font-weight: 400;
+	color: var(--warm-charcoal);
+	margin: 0 0 8px;
+}
+
+.form-status-error {
+	color: #a3423a;
+	font-size: 0.9rem;
+}
+
 @media (max-width: 640px) {
 	.form-row {
 		grid-template-columns: 1fr;
