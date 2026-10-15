@@ -1660,6 +1660,22 @@ nav li a:focus {
 		grid-template-columns: 1fr;
 	}
 
+	/* iOS Safari zooms in on focus when a field's text is under 16px. */
+	.contact-form input,
+	.contact-form textarea {
+		font-size: 16px;
+	}
+
+	/* Empty iOS date inputs collapse shorter than the other fields, then jump once a date is picked. */
+	.contact-form input[type="date"] {
+		min-height: 48px;
+		text-align: left;
+	}
+
+	.contact-form input[type="date"]::-webkit-date-and-time-value {
+		text-align: left;
+	}
+
 	.contact-container {
 		padding: 70px 20px 80px;
 	}
