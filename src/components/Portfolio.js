@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Lightbox from "./Lightbox";
+import MasonryGrid from "./MasonryGrid";
 
 const imageData = [
 	{ src: "/images/portfolio/IMG_4113.JPG", w: 1113, h: 1600 },
@@ -27,27 +28,7 @@ function Portfolio() {
 				</h2>
 				<p>From intimate ceremonies to grand celebrations</p>
 			</div>
-			<div className="masonry-grid">
-				{imageData.map(({ src, w, h }, i) => (
-					<button
-						type="button"
-						className="masonry-item"
-						key={i}
-						onClick={() => setLightboxIndex(i)}
-						aria-label="View full image"
-					>
-						<img
-							src={src}
-							alt=""
-							width={w}
-							height={h}
-							loading="lazy"
-							decoding="async"
-							onLoad={(e) => e.target.classList.add("loaded")}
-						/>
-					</button>
-				))}
-			</div>
+			<MasonryGrid images={imageData} onSelect={setLightboxIndex} />
 			<Link to="/full-portfolio" className="portfolio-button">
 				View Full Gallery
 			</Link>

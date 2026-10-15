@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Lightbox from "./Lightbox";
+import MasonryGrid from "./MasonryGrid";
 
 const imageData = [
 	{ src: "/images/portfolio/IMG_4113.JPG", w: 1113, h: 1600 },
@@ -50,28 +51,11 @@ function PortfolioFull() {
 				</h1>
 				<p>Every arrangement, every moment, every bloom</p>
 			</div>
-			<div className="masonry-grid">
-				{imageData.map(({ src, w, h }, index) => (
-					<button
-						type="button"
-						className="masonry-item"
-						key={index}
-						onClick={() => setLightboxIndex(index)}
-						aria-label="View full image"
-					>
-						<img
-							src={src}
-							alt=""
-							width={w}
-							height={h}
-							loading={index < EAGER_COUNT ? "eager" : "lazy"}
-							fetchpriority={index < EAGER_COUNT ? "high" : "auto"}
-							decoding="async"
-							onLoad={(e) => e.target.classList.add("loaded")}
-						/>
-					</button>
-				))}
-			</div>
+			<MasonryGrid
+				images={imageData}
+				onSelect={setLightboxIndex}
+				eagerCount={EAGER_COUNT}
+			/>
 			{lightboxIndex !== null && (
 				<Lightbox
 					images={imageData}

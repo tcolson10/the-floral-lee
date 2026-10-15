@@ -950,9 +950,15 @@ nav li a:focus {
 }
 
 .masonry-grid {
-	columns: 3;
-	column-gap: 10px;
+	display: flex;
+	align-items: flex-start;
+	gap: 10px;
 	width: 100%;
+}
+
+.masonry-column {
+	flex: 1 1 0;
+	min-width: 0;
 }
 
 .masonry-item {
@@ -1102,10 +1108,6 @@ nav li a:focus {
 }
 
 @media (max-width: 900px) {
-	.masonry-grid {
-		columns: 2;
-	}
-
 	.portfolio-page-container {
 		padding: 70px 4% 56px;
 	}
@@ -1113,8 +1115,7 @@ nav li a:focus {
 
 @media (max-width: 480px) {
 	.masonry-grid {
-		columns: 2;
-		column-gap: 6px;
+		gap: 6px;
 	}
 
 	.masonry-item {
